@@ -1,0 +1,29 @@
+.sidebar {
+  font-size: 15px;
+  font-weight: 500;
+  .link-wrapper {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    a {
+      text-decoration: none;
+      color: #333;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      &:hover {
+        color: #5783FC;
+      }
+    }
+    .active {
+      color: #5783FC;
+    }
+    .icon {
+      height: 20px;
+      margin-right: 10px;
+    }
+    .name {
+      line-height: 15px;
+    }
+  }
+}
