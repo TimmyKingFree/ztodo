@@ -7,7 +7,7 @@ class Topbar extends React.Component {
     return (
       <div className="topbar"> 
         <div className="inner">
-          <img className="logo" src={logo} />
+          <img className="logo" src={logo} alt="logo" />
         </div>
       </div>
     )
